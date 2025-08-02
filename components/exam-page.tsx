@@ -118,7 +118,7 @@ export default function ExamPage({ subject, mode, onComplete, onBack }: ExamPage
 
             <div className="text-center">
               <h1 className="text-xl font-bold">{mode === "exam" ? "Exam Mode" : "Practice Mode"}</h1>
-              <p className="text-sm text-gray-300">{subjectName} - Exit Exam 2024</p>
+              <p className="text-sm text-gray-300">{subjectName} -  Entrance Exam 2024</p>
             </div>
 
             <div className="flex items-center space-x-4">

@@ -127,7 +127,7 @@ export default function ResultsPage({ subject, userAnswers, onRestart }: Results
           <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <Award className="w-16 h-16 mx-auto mb-4 text-yellow-400" />
             <h1 className="text-3xl md:text-4xl font-bold mb-2">Examination Complete</h1>
-            <p className="text-xl text-gray-300">{subjectName} - Exit Exam Results</p>
+            <p className="text-xl text-gray-300">{subjectName} -  Entrance Exam Results</p>
           </motion.div>
         </div>
       </div>
